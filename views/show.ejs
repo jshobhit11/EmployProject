@@ -1,0 +1,12 @@
+
+    <h1><%= employ.name  %> </h1>
+<ul>
+
+<li>Salary: <%=employ.salary%></li>
+<li>Age: <%=employ.age%></li>
+</ul>
+<a href="/employ/<%=employ._id%>/edit">Edit</a>
+<a href="/employs">  ALL EMPLOYS</a>
+<form action="/employ/<%=employ._id%>?_method=DELETE" method="POST">
+<button>DELETE</button>
+</form>

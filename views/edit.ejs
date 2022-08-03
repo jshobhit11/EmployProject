@@ -1,0 +1,18 @@
+<% layout('layouts/boilerplate')%>
+
+<h1>Welcome new employee</h1>
+<form action="/employ/<%=employ._id%>?_method=PUT" method="POST" novalidate class="validated-form">
+<label for="name">Employ name</label>
+<input type="text" name="name" placeholder="employ name" id="name" value="<%=employ.name%>">
+<br></br>
+
+<label for="salary">Employ salary</label>
+<input type="number" name="salary" placeholder="employ salary" id="salary" value="<%=employ.salary%>">
+<br></br>
+
+<label for="age">Employ Age</label>
+<input type="number" name="age" placeholder="employ Age" id="age" value="<%=employ.age%>">
+<br></br>
+<button>Submit</button>
+</form>
+    
