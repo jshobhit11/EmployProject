@@ -1,0 +1,16 @@
+
+
+node_modules/
+.env
+env.js
+coverage/
+yarn.lock
+.DS_Store
+
+.prettierrc.json
+.vscode
+.VSCodeCounter/
+frontend/dist/
+frontend/dist/
+.eslintrc
+backend/annotationFiles
